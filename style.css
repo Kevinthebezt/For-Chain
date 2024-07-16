@@ -1,0 +1,43 @@
+body {
+    align-items: center;
+    background-image: url('https://img.freepik.com/premium-photo/pink-romantic-holiday-background-with-heart-shaped-sweet-candies-decorative-card-st-valentine-s-day-with-space-text-love-theme_168091-51.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black !important;
+    width: fit-content;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 20px;
+    backdrop-filter: brightness(40%)
+}
+
+.items {
+    padding-left: 30%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    background-color: purple;
+}
